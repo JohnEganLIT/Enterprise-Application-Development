@@ -4,4 +4,6 @@ A simple HTML form gathers information from the end user. This information is su
 
 A scriptlet in the JSP gathers this information from the request and creates Java variables. 
 
-JSP Expressions can then be used in the HTML section of the JSP to echo this information back to the end user.
+JSP Expressions can then be used in the HTML section of the JSP to echo these variables back to the end user.
+
+In particular, this project demonstrates the use of scriptlets, JSP expressions, and working with request parameters. 

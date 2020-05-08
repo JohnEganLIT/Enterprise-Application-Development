@@ -1,0 +1,7 @@
+Simple project to demonstrate how JSPs can be used to create dynamic web content.
+
+A simple HTML form gathers information from the end user. This information is submitted to a JSP via GET.
+
+A scriptlet in the JSP gathers this information from the request and creates Java variables. 
+
+JSP Expressions can then be used in the HTML section of the JSP to echo this information back to the end user.

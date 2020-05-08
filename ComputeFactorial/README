@@ -1,0 +1,14 @@
+The purpose of this project is to demonstrate the three types of scripting constructs that can be used in JSP 
+to insert Java code into the output.
+
+These constructs are:
+1. Expressions - Expressions fall between <%= and %> tags, are used to insert Java expressions directly into 
+the output. The expression is converted to a String and included in the output.
+
+2. Scriptlets - Scriptlets fall between <% and %> tags, and are blocks of Java code. Usually do not include 
+any HTML. Contains code that is executed every time the JSP is invoked.
+
+3. Declarations - Declarations fall between <%! and %> tags, and are used to declare methods or fields within the JSP.
+
+This is a simple project that computes the factorial of the numbers between 1 and 10. Includes use of each of the constructs
+mentioned above.

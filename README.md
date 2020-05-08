@@ -4,3 +4,4 @@ Some small projects in Java demonstrating JSPs, Servlets, EL &amp; JSTL, JPA, JP
 Projects Gradually Increase in Complexity.
 
 1. EmailAddressApp
+2. ComputeFactorial

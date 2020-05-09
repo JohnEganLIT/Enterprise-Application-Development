@@ -7,3 +7,4 @@ Projects Gradually Increase in Complexity.
 2. ComputeFactorial
 3. RegularClassesWithJSP
 4. JSPErrorHandling
+5. SimpleServlet

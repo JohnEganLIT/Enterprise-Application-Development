@@ -18,6 +18,6 @@ a generic error message.
 the JSP engine what page to load if it encounters any errors processing the current page.
 
 <%@page isErrorPage="true" %> attribute in email_address_app_error.jsp specifies that this page can
-be used as an error page for another JSP. this attribute is set to false by default.
+be used as an error page for another JSP. This attribute is set to false by default.
 
 This error page is displayed no matter what exception is thrown during execution of the JSP.

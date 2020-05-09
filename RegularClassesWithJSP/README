@@ -1,0 +1,20 @@
+The purpose of this project is to demonstrate how regular Java classes can be used by a JSP.
+
+This is an improvement to the previous EmailAddressApp project.
+
+Two simple Java classes are added to the project; User and UserIO. 
+
+The User class is a simple Java class modelling a user of the application. 
+
+UserIO contains one method "writeToFile" that writes the values in a User object to a text file. The
+method accepts two paramteres; a User object, and a String that provides a path for the file.
+
+The Page Directive is used in the display_email_entry JSP to import the Java classes.
+<%@page import="business.User, data.UserIO" %>
+
+The scriptlet from before is now modified to create a User object from the request parameters. 
+
+A ServletContext object is also created, which is used to convert the web content path to an absolute
+disk file system path with the getRealPath() method. The path to where the file is to be created is 
+specified as "WEB-INF/EmailList.txt", meaning the text file will appear in the WEB-INF folder once
+a User object is submitted.

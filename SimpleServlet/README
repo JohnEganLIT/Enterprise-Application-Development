@@ -1,0 +1,11 @@
+The purpose of this project is to give a very simple example of oh Servlets can be used to process
+client requests and produce dynamic web pages. Servlets are Java programs that run on a Web Server.
+
+The HttpServlet class is an abstract class that must be extended by all Servlets. A subclass of 
+HttpServlet must override at least one method, usually doGet (used to handle get requests from clients) 
+or doPost (used to handle post requests from clients).
+
+In this example, the Servlet is called when the end user clicks a link on the index page.
+
+The Servlet's doGet method is Overridden. The response type is set as "text/html". The printWriter 
+class is then used to output a basic HTML message to the end user. 

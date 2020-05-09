@@ -1,0 +1,23 @@
+The purpose of this project is to demonstrate how JSP applications can easily work with error pages. 
+
+This is an enhancement of the previous RegularClassesWithJSP project.
+
+The additional variable "age" was added to the User class. Getters, Setters and Constructor were updated.
+
+display_email_entry JSP updated to get the age parameter from the request and parse this input to an Integer.
+
+The application now requires an integer input to process the request. 
+
+If a user enters a String value for their age, for example "thenty three", this will cause the application 
+to crash and output an unsightly error message. 
+
+In order to handle the error more gracefully, I created a simple JSP named email_address_app_error with
+a generic error message. 
+
+<%@ page errorPage="email_address_app_error.jsp" %> is added to the JSP processing the form. This tells
+the JSP engine what page to load if it encounters any errors processing the current page.
+
+<%@page isErrorPage="true" %> attribute in email_address_app_error.jsp specifies that this page can
+be used as an error page for another JSP. this attribute is set to false by default.
+
+This error page is displayed no matter what exception is thrown during execution of the JSP.

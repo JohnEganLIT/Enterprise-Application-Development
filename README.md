@@ -5,3 +5,5 @@ Projects Gradually Increase in Complexity.
 
 1. EmailAddressApp
 2. ComputeFactorial
+3. RegularClassesWithJSP
+4. JSPErrorHandling

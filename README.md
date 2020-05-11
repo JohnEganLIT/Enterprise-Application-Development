@@ -8,3 +8,4 @@ Projects Gradually Increase in Complexity.
 3. RegularClassesWithJSP
 4. JSPErrorHandling
 5. SimpleServlet
+6. EmailAppWithServlet

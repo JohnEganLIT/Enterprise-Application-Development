@@ -10,3 +10,4 @@ Projects Gradually Increase in Complexity.
 5. SimpleServlet
 6. EmailAppWithServlet
 7. EmailAddressAppServletMVC
+8. ForwardingRequestsArrayList

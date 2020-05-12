@@ -9,3 +9,4 @@ Projects Gradually Increase in Complexity.
 4. JSPErrorHandling
 5. SimpleServlet
 6. EmailAppWithServlet
+7. EmailAddressAppServletMVC

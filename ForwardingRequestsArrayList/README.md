@@ -17,6 +17,7 @@ A RequestDispatcher allows:
 
 In the UserServlet, the processRequest() method includes the following line of code:
 * doGet(request, response);
+
 This calls the doGet() method for the Servlet and passes the request and response objects to this method.
 
 In the doGet() method, several User objects are created and added to an ArrayList. A RequestDispatcher 
@@ -31,10 +32,12 @@ to the specified URL.
 
 The following line of code is added to the JSP:
 * <jsp: useBean id="userList" scope="request" type="ArrayList<business.User>" />
+
 This locates the User bean class. 
 
 In the HTML body, we can now use Scriptlets to declare, open, and close a for loop, in the form:
 * for(User u : userList) { }
+
 This will iterate through the userList, assign each individual User object to 'u'.
 
 JSP Expressions are used inside the for loop to return the data sotred within the variables of each User 

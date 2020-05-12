@@ -1,4 +1,4 @@
-#Forwarding Requests and Redirecting Responses#
+# Forwarding Requests and Redirecting Responses #
 
 The purpose of this project is to demonstrate how request objects can be passed from a Servlet to a
 JSP or another Servlet when using the MVC pattern. 
